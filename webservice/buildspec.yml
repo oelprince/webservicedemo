@@ -7,10 +7,9 @@ phases:
 
    build:
      commands:
-        
-	- java -version
+        - java -version
         - cd webservice
-	- mvn clean package
+        - mvn clean package
 
 artifacts:
    files:
